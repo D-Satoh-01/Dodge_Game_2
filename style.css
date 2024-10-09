@@ -3,7 +3,7 @@
 #game{
     width: 500px;
     height: 200px;
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(50, 50, 50);
     border: 5px solid rgb(0, 0, 0);
 }
 
@@ -33,7 +33,7 @@
     position: relative;
     top: 130px;
     left: 480px;
-    animation: block 1s infinite linear;
+    animation: block 2s infinite linear;
 }
 
 @keyframes block{
