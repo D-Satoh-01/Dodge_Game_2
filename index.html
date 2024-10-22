@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" onclick="jump()">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dodge Game</title>
-    <link rel="stylesheet" href="style.css"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogde Game</title>
 </head>
 
-<body>
-    <h2>クリックで白い箱をジャンプさせて赤い箱を避けてください</h2>
-    <div id="game">
-        <div id="character"></div>
-        <div id="block"></div>
-    </div>
-</body>
+<style>
+    body {
+        background-color: rgb(30,30,30);
+    }
+</style>
 
-<script src="script.js" ></script>
+<body>
+    <script src="./script.js"></script>
+    <canvas id="main" width="720" height="540"></canvas>
+</body>
 </html>
